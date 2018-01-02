@@ -56,11 +56,11 @@ The easiest way again is to put the image file from the previous step (step 2) i
 
 The predict scripts require one argument: the file location of the image file containing the handwritten number. For example when the image file is ‘number1.png’ and is in the same location as the script, run:
 
-```python predict_1.py ‘number1.png’```
+```python predict_1.py number1.png```
 
 or
 
-```python predict_2.py ‘number1.png’```
+```python predict_2.py number1.png```
 
 The first script, predict_1.py, uses the model.ckpt file created by the create_model_1.py script. The second script, predict_2.py, uses the model2.ckpt file created by the create_model_2.py script. 
 
